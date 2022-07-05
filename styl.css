@@ -1,0 +1,34 @@
+body
+{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    transition: 1s 0.2s ease;
+    box-shadow: 5px 10px 10px 10px white;
+}
+.box:hover
+{
+    color: black;
+    background-color: white;
+    box-shadow: 5px 10px 10px 10px black;
+    margin-top: 95px
+
+}
+
+h1 
+{
+    line-height: 350px;
+    text-align: center;
+}
